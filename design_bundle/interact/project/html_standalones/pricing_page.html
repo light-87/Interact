@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Pricing</title>
+<style>
+  body { font-family:system-ui,sans-serif; margin:0; padding:48px 24px; background:white; text-align:center; }
+  h1 { font-size:42px; margin:0 0 48px; }
+  .tiers { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; max-width:900px; margin:0 auto; }
+  .tier { padding:32px 24px; border:1px solid #e5e5e5; border-radius:12px; text-align:left; }
+  .tier.pro { background:#111; color:white; border-color:#111; }
+  .price { font-size:36px; font-weight:600; margin:12px 0; }
+  button { width:100%; padding:12px; border-radius:8px; border:0; cursor:pointer; margin-top:16px; }
+</style>
+</head>
+<body>
+<h1>Simple pricing</h1>
+<div class="tiers">
+<div class="tier"><h3>Free</h3><div class="price">$0</div><button>Get started</button></div>
+<div class="tier pro"><h3>Pro</h3><div class="price">$12</div><button>Start trial</button></div>
+<div class="tier"><h3>Team</h3><div class="price">$49</div><button>Contact sales</button></div>
+</div>
+</body>
+</html>

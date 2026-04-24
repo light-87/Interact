@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(mkdir -p \"/c/Users/vaibh/Desktop/Learning Projects/Interact_demo/design_bundle\")",
+      "Bash(cp \"/c/Users/vaibh/.claude/projects/C--Users-vaibh-Desktop-Learning-Projects-Interact-demo/2e6c3711-86f9-4c4f-b16a-44e70d826e83/tool-results/webfetch-1777036731633-25rjqz.bin\" bundle.gz)",
+      "Bash(gunzip -k bundle.gz)",
+      "Read(//c/c/Users/vaibh/Desktop/Learning Projects/Interact_demo/design_bundle/**)",
+      "Read(//c/c/Users/vaibh/Desktop/Learning Projects/Interact_demo/**)",
+      "Bash(tar -xf bundle)",
+      "Bash(cp *)",
+      "Bash(node scripts/generate-manifest.js)"
+    ]
+  }
+}

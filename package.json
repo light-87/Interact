@@ -1,0 +1,12 @@
+{
+  "name": "interact-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Warm editorial gallery of client HTML prototype demos.",
+  "scripts": {
+    "gen": "node scripts/generate-manifest.js",
+    "dev": "bun run gen && bunx http-server -p 3000 -c-1 .",
+    "build": "bun run gen"
+  }
+}
